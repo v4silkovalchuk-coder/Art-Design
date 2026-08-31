@@ -1,0 +1,6 @@
+{
+  "name": "Art & Design Studio",
+  "description": "Сучасна студія оформлення та арту: логотипи, аватарки, банери, скетчі, ілюстрації та анімація.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

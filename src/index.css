@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #0c0306;
+    color: #f7e6e9;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Syne', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-serif-brand {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom dark ruby scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #120407;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #450a14;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}
+
+.glow-red {
+  box-shadow: 0 0 40px -10px rgba(220, 38, 38, 0.35);
+}
+
+.glow-subtle {
+  box-shadow: 0 4px 20px -2px rgba(225, 29, 72, 0.15);
+}
+
